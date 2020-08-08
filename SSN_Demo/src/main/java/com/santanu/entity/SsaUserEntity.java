@@ -29,6 +29,8 @@ import lombok.NoArgsConstructor;
 @Table(name="SSA_USER_MASTER")
 public class SsaUserEntity implements Serializable {
 	
+	private static final long serialVersionUID = 1L;
+
 	@Id
 	@GenericGenerator(name = "IdGenerator",
     strategy = "com.santanu.generators.IdGenerator",
